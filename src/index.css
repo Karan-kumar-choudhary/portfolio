@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+.custom-img{
+    width: 400px;
+
+}
+.heading-textr{
+    font-size: 25px;
+}
+
