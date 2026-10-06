@@ -149,3 +149,58 @@
 .footer-right input::placeholder {
   color: #555;
 }
+
+
+
+
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 8%;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h3 {
+  color: black;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 550px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.button-content{
+  margin-top: 40px;
+  
+}
+.link-item{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  
+}

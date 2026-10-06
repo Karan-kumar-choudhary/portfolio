@@ -1,15 +1,17 @@
 import React from 'react'
-import Home from './pages/Home'
-import Footer from './layout/Footer'
-import Card from './components/Card'
-import Clienttestimonial from './components/Clienttestimonial'
+import AppRoutes from './appRoutes/AppRoutes'
+// app ko aap apne ghar ka main hall smhjho > yeh khaalihi rehta hai mostly 
+// yaha parsirf approutes call hoga
+
+
 
 
 const App = () => {
   return (
-    <div>
-       <Footer/>
-    </div>
+    <>
+   <AppRoutes/>
+    
+    </>
   )
 }
 
