@@ -201,6 +201,19 @@
 .link-item{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+ align-items: center;
+  margin-top: 50px;
   
+}
+.items-product{
+  display: flex;
+  margin-top: 200px;
+  gap: 50px;
+  padding: 0 0px 0 80px ;
+ 
+}
+.items-product h1{
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 20px;
 }
