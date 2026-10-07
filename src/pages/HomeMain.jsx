@@ -18,6 +18,8 @@ import book from '../assets/book.png'
 import adstarct from '../assets/adstarct.png'
 import d from '../assets/d.png'
 import is from '../assets/is.png'
+import mexico from '../assets/mexico.png'
+import make from '../assets/make.png'
 
 
 
@@ -62,10 +64,10 @@ const HomeMain = () => {
         <Card photo={is} 
           h1="Project title"
           p="Ul,Art drection "/>
-        <Card photo={book} 
+        <Card photo={mexico} 
           h1="Project title"
           p="Ul,Art drection "/>
-        <Card photo={book} 
+        <Card photo={make} 
           h1="Project title"
           p="Ul,Art drection "/>
 
