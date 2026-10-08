@@ -1,35 +1,38 @@
 import React from 'react'
 
-const Clienttestimonial = () => {
+const Clienttestimonial = ({photo,h3,p}) => {
   return (
 <>
-   <div className="card">
-
-      <p className="card-text">
-        This is a template Figma file,<br />
-        turned into code using Anima.<br />
-        Learn more at AnimaApp.com
-      </p>
-
-      <div className="card-bottom">
-
-        <img
-          src="https://i.pravatar.cc/100?img=47"
-          alt="Gemma Nolen"
-          className="profile-img"
-        />
-
-        <div>
-          <div className="stars">★★★★★</div>
-          <h3>Gemma Nolen</h3>
-          <p className="company">Google</p>
+     
+     <div className='clients p-[42px] bg-red-300 w-[390px] border-2'>
+       <p className=''>{p}</p>
+       <div className='flex items-center bottom-section pt-[60px]'>
+        <div className="left px-[16px] ">
+          <img className=''   src={photo} alt="" />
         </div>
+        <div className="right">
+        <div className='group-stars flex gap-1'>
+ <i class="fa-jelly-fill fa-regular fa-star"></i>
+  <i class="fa-jelly-fill fa-regular fa-star"></i>
+   <i class="fa-jelly-fill fa-regular fa-star"></i>
+    <i class="fa-jelly-fill fa-regular fa-star"></i>
+     <i class="fa-jelly-fill fa-regular fa-star"></i>
+        </div>
+       <h3 className=''>{h3}</h3>
+       <p className=''> Google</p>
+        </div>
+       </div>
+       
+      
 
-      </div>
 
-    </div>
+
+     </div>
+
+    
 </>
   )
 }
 
 export default Clienttestimonial
+// i={}

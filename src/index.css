@@ -219,9 +219,12 @@
 }
 .title-items{
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+   gap: 60px;
   margin-top: 250px;
+  justify-content: space-evenly;
 }
 .custom-img{
-  width: 800px;
+  width: 394px;
+  height: 330px ;
 }

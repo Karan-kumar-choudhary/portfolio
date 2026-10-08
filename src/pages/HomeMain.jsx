@@ -20,7 +20,7 @@ import d from '../assets/d.png'
 import is from '../assets/is.png'
 import mexico from '../assets/mexico.png'
 import make from '../assets/make.png'
-
+import client from '../assets/Client Image.png'
 
 
 
@@ -72,10 +72,17 @@ const HomeMain = () => {
           p="Ul,Art drection "/>
 
        </div>
-        <div className='my-clients'>
-   
-        </div>
-
+        
+        
+             
+            <div><Clienttestimonial p="This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com" photo={client} h3="Gemma Nloen "   />
+            <Clienttestimonial p="This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com" photo={client} h3="Gemma Nloen "   />
+            <Clienttestimonial p="This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com" photo={client} h3="Gemma Nloen "   />
+     
+            
+            </div>
+        
+        
   
         <Footer/>
 
